@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes e Exercícios</title>
+    <link rel="stylesheet" href="style_quiz.css">
+</head>
+<body>
+    <header>
+        <img src="img/logoBrancaLeranclass.png" alt="logo">
+     <nav>
+        <a href="#"> Certificados </a>
+        <a href="#"> Progresso </a>
+        <a href="forum.html"> Comunidade </a>
+        <a href="#"> Quizzes </a>
+     </nav>
+    </header>
+    <div class="gap"></div>
+    <main>
+        <div class="content">
+            <section id="apresentacao">
+                <h2>Apresentação</h2>
+                <p>Bem-vindo ao Curso de Python para Iniciantes!...</p>
+            </section>
+            <section id="materias">
+                <h2>Matérias do curso</h2>
+                <p>Aqui estão as matérias que você aprenderá...</p>
+            </section>
+            <section id="exercicios">
+                <h2>Exercícios</h2>
+                <p>Pratique seus conhecimentos com nossos exercícios...</p>
+            </section>
+        </div>
+        <!-- Quiz 1 -->
+        <section class="quiz">
+            <h2>Quiz 1: HTML e CSS</h2>
+            <form action="#">
+                <label for="q1">Qual a tag usada para criar um link em HTML?</label><br><br>
+                <input type="radio" id="q1a" name="q1" value="a">
+                <label for="q1a">a) &lt;a&gt;</label><br><br>
+                <input type="radio" id="q1b" name="q1" value="b">
+                <label for="q1b">b) &lt;link&gt;</label><br><br>
+                <input type="radio" id="q1c" name="q1" value="c">
+                <label for="q1c">c) &lt;href&gt;</label><br><br>
+                <input type="radio" id="q1d" name="q1" value="d">
+                <label for="q1d">d) &lt;src&gt;</label><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <!-- Exercício 1 -->
+        <section class="exercise">
+            <h2>Exercício 1: CSS</h2>
+            <p>Crie uma regra CSS para estilizar o texto em negrito.</p>
+            <textarea id="exercise1" rows="4" cols="50"></textarea><br>
+            <button onclick="checkExercise1()">Check</button>
+            <p id="exercise1-feedback"></p>
+        </section>
+
+        <!-- Quiz 2 -->
+        <section class="quiz">
+            <h2>Quiz 2: JavaScript</h2><br>
+            <form action="#">
+                <label for="q2">Qual a função do JavaScript?</label><br><br>
+                <input type="radio" id="q2a" name="q2" value="a">
+                <label for="q2a">a) Estilização de páginas web</label><br><br>
+                <input type="radio" id="q2b" name="q2" value="b">
+                <label for="q2b">b) Adicionar interatividade e dinamismo às páginas web</label><br><br>
+                <input type="radio" id="q2c" name="q2" value="c">
+                <label for="q2c">c) Estruturar o conteúdo das páginas web</label><br><br>
+                <input type="radio" id="q2d" name="q2" value="d">
+                <label for="q2d">d) Guardar os dados do usuário do site</label><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <!-- Exercício 2 -->
+        <section class="exercise">
+            <h2>Exercício 2: JavaScript</h2>
+            <p>Crie um código em JavaScript para abrir um Pop-Up no centro da tela do usuário.</p>
+            <textarea id="exercise2" rows="8" cols="50"></textarea><br>
+            <button onclick="checkExercise2()">Check</button>
+            <p id="exercise2-feedback"></p>
+        </section>
+        <div class="sidebar">
+            <ul>
+                <li><a href="#apresentacao">Apresentação</a></li><br>
+                <li><a href="#materias">Matérias do curso</a></li><br>
+                <li><a href="#exercicios">Exercícios</a></li><br>
+                <li><a href="#certificado">Certificado
+                </a></li>
+            </ul>
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Quizzes e Exercícios</p>
+    </footer>
+</body>
+</html>
